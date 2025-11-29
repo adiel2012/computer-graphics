@@ -1,0 +1,189 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.Python
+
+# Virtual Environments
+opencv_env/
+venv/
+ENV/
+env/
+.venv/
+cv_env/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+.jupyter/
+jupyter_notebook_config.py
+
+# IPython
+profile_default/
+ipython_config.py
+
+# IDE & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# PyCharm
+.idea/
+*.iml
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Images and outputs (ignore generated files, keep samples)
+output/
+results/
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.tif
+*.ico
+*.webp
+
+# But keep sample/test images
+!sample*.jpg
+!sample*.jpeg
+!sample*.png
+!test*.jpg
+!test*.png
+!examples/**/*.jpg
+!examples/**/*.png
+!images/samples/
+
+# Videos
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.wmv
+*.flv
+*.webm
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.bak
+*.backup
+*.cache
+*.pid
+*.seed
+*.pid.lock
+
+# Data files (often large)
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.csv
+*.tsv
+
+# Model files (can be large)
+*.pth
+*.pt
+*.onnx
+*.pb
+*.caffemodel
+*.weights
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Documentation builds
+docs/_build/
+docs/_static/
+docs/_templates/
+site/
+
+# Testing
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# pyenv
+.python-version
+
+# Pipenv
+Pipfile.lock
+
+# Poetry
+poetry.lock
+
+# Celery
+celerybeat-schedule
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.envrc
+
+# Secrets
+secrets.json
+credentials.json
+*.key
+*.pem
+*.p12
+
+# Project specific
+downloaded_images/
+temp_images/
+processed_images/
+debug_output/
+experiments/
+
+# Keep important directories structure
+!images/.gitkeep
+!projects/.gitkeep
+!notebooks/.gitkeep
+!.claude/*
