@@ -2,6 +2,8 @@
 
 A streamlined curriculum for learning 2D computer graphics using OpenCV with Python.
 
+> ⚠️ **Setup Required**: Before using Google Colab links, you must upload this to GitHub and replace `YOUR_USERNAME` with your GitHub username. See [Getting Started](#-getting-started) section below.
+
 ---
 
 ## Quick Start
@@ -297,14 +299,15 @@ normalized = img.astype(np.float32) / 255.0
 ```
 computer-graphics/
 ├── README.md                          # This file - complete syllabus
+├── SETUP_CHECKLIST.md                 # ⭐ Step-by-step setup guide
 ├── .gitignore                         # Git ignore configuration
 │
 └── notebooks/                         # Jupyter notebooks for each module
-    ├── 00_Prerequisites.ipynb         # ✅ Python, NumPy, Math review
-    ├── 01_Foundations.ipynb           # ✅ Fully developed
-    ├── 02_Drawing_and_Color.ipynb     # ✅ Fully developed
-    ├── 03_Filtering_Enhancement.ipynb # 📝 Template (expand with content)
-    └── 04-11_Module.ipynb             # 📝 Additional module templates
+    ├── 00_Prerequisites.ipynb         # ✅ Python, NumPy, Math review (26KB)
+    ├── 01_Foundations.ipynb           # ✅ Fully developed (14KB)
+    ├── 02_Drawing_and_Color.ipynb     # ✅ Fully developed (12KB)
+    ├── 03_Filtering_Enhancement.ipynb # 📝 Template (1KB)
+    └── 04-11_Module.ipynb             # 📝 Stub templates (313B each)
 ```
 
 ## 🚀 Getting Started
@@ -342,12 +345,37 @@ pip install opencv-python opencv-contrib-python numpy matplotlib jupyter
 3. 🔧 **Module 3-11**: Additional topics (templates to expand)
 4. 🚀 **Capstone Projects**: Build real applications
 
-## 📝 Note
+## 📝 Important Notes
 
-- Modules 1-2 have full content and examples
-- Modules 3-11 are templates ready for you to expand
-- Use the official OpenCV documentation to fill in details
-- Contribute improvements via pull requests!
+### Before Google Colab Links Work:
+⚠️ **The "Open in Colab" badges won't work until you:**
+1. Upload this repository to your GitHub account
+2. Replace `YOUR_USERNAME` in all files with your actual GitHub username
+3. Make sure your repository is **public** (Colab can't access private repos by default)
+
+### Testing Notebooks Locally First:
+```bash
+# Navigate to notebooks directory
+cd notebooks
+
+# Start Jupyter
+jupyter notebook
+
+# Or open directly in VS Code
+code 00_Prerequisites.ipynb
+```
+
+### What's Complete:
+- ✅ **Module 0**: Prerequisites (26KB) - Full Python/NumPy/Math review
+- ✅ **Module 1**: Foundations (14KB) - Complete with examples
+- ✅ **Module 2**: Drawing & Color (12KB) - Complete with examples
+- 📝 **Modules 3-11**: Templates ready for you to expand
+
+### Next Steps:
+1. Test notebooks locally with Jupyter
+2. Upload to GitHub
+3. Replace `YOUR_USERNAME` everywhere
+4. Share with students or start learning!
 
 ---
 
