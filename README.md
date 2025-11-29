@@ -2,7 +2,7 @@
 
 A streamlined curriculum for learning 2D computer graphics using OpenCV with Python.
 
-> ⚠️ **Setup Required**: Before using Google Colab links, you must upload this to GitHub and replace `YOUR_USERNAME` with your GitHub username. See [Getting Started](#-getting-started) section below.
+> ✅ **Ready to Use**: All Google Colab links are configured for GitHub user `adiel2012`. Just upload to GitHub and the badges will work! See [Getting Started](#-getting-started) for upload instructions.
 
 ---
 
@@ -48,7 +48,7 @@ cv2.destroyAllWindows()
 > **📓 Each module has an interactive Jupyter notebook. Click the badges to open in Google Colab!**
 
 ### Module 0: Prerequisites (Before Week 1)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/computer-graphics/blob/main/notebooks/00_Prerequisites.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/adiel2012/computer-graphics/blob/main/notebooks/00_Prerequisites.ipynb)
 - Python fundamentals (functions, classes, comprehensions)
 - NumPy essentials (arrays, slicing, operations)
 - Mathematics review (linear algebra, trigonometry, calculus basics)
@@ -59,7 +59,7 @@ cv2.destroyAllWindows()
 ---
 
 ### Module 1: Foundations (Weeks 1-2)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/computer-graphics/blob/main/notebooks/01_Foundations.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/adiel2012/computer-graphics/blob/main/notebooks/01_Foundations.ipynb)
 - Image representation and file I/O
 - NumPy arrays as images
 - Pixel manipulation and ROI
@@ -70,7 +70,7 @@ cv2.destroyAllWindows()
 ---
 
 ### Module 2: Drawing & Color (Weeks 3-4)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/computer-graphics/blob/main/notebooks/02_Drawing_and_Color.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/adiel2012/computer-graphics/blob/main/notebooks/02_Drawing_and_Color.ipynb)
 - Drawing primitives (lines, circles, rectangles, text)
 - Color spaces (RGB, BGR, HSV, LAB)
 - Color transformations
@@ -81,7 +81,7 @@ cv2.destroyAllWindows()
 ---
 
 ### Module 3: Filtering & Enhancement (Weeks 5-6)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/computer-graphics/blob/main/notebooks/03_Filtering_Enhancement.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/adiel2012/computer-graphics/blob/main/notebooks/03_Filtering_Enhancement.ipynb)
 - Convolution fundamentals
 - Blurring and smoothing
 - Sharpening and edge enhancement
@@ -92,7 +92,7 @@ cv2.destroyAllWindows()
 ---
 
 ### Module 4: Geometric Transformations (Weeks 7-8)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/computer-graphics/blob/main/notebooks/04_Module.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/adiel2012/computer-graphics/blob/main/notebooks/04_Module.ipynb)
 - Translation, rotation, scaling
 - Affine transformations
 - Perspective transformations
@@ -103,7 +103,7 @@ cv2.destroyAllWindows()
 ---
 
 ### Module 5: Edge Detection (Week 9)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/computer-graphics/blob/main/notebooks/05_Module.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/adiel2012/computer-graphics/blob/main/notebooks/05_Module.ipynb)
 - Gradient operators (Sobel, Scharr)
 - Canny edge detection
 - Laplacian edge detection
@@ -113,7 +113,7 @@ cv2.destroyAllWindows()
 ---
 
 ### Module 6: Morphology (Week 10)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/computer-graphics/blob/main/notebooks/06_Module.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/adiel2012/computer-graphics/blob/main/notebooks/06_Module.ipynb)
 - Erosion and dilation
 - Opening and closing
 - Morphological gradient
@@ -124,7 +124,7 @@ cv2.destroyAllWindows()
 ---
 
 ### Module 7: Contours & Shapes (Weeks 11-12)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/computer-graphics/blob/main/notebooks/07_Module.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/adiel2012/computer-graphics/blob/main/notebooks/07_Module.ipynb)
 - Contour detection
 - Shape properties and analysis
 - Bounding boxes and fitting
@@ -135,7 +135,7 @@ cv2.destroyAllWindows()
 ---
 
 ### Module 8: Histograms (Week 13)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/computer-graphics/blob/main/notebooks/08_Module.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/adiel2012/computer-graphics/blob/main/notebooks/08_Module.ipynb)
 - Histogram calculation
 - Histogram equalization
 - Adaptive equalization (CLAHE)
@@ -146,7 +146,7 @@ cv2.destroyAllWindows()
 ---
 
 ### Module 9: Segmentation (Week 14)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/computer-graphics/blob/main/notebooks/09_Module.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/adiel2012/computer-graphics/blob/main/notebooks/09_Module.ipynb)
 - Thresholding methods
 - Watershed algorithm
 - GrabCut algorithm
@@ -157,7 +157,7 @@ cv2.destroyAllWindows()
 ---
 
 ### Module 10: Feature Detection (Week 15)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/computer-graphics/blob/main/notebooks/10_Module.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/adiel2012/computer-graphics/blob/main/notebooks/10_Module.ipynb)
 - Corner detection (Harris, Shi-Tomasi)
 - Blob detection
 - SIFT, ORB descriptors
@@ -168,7 +168,7 @@ cv2.destroyAllWindows()
 ---
 
 ### Module 11: Advanced Topics (Week 16)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/computer-graphics/blob/main/notebooks/11_Module.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/adiel2012/computer-graphics/blob/main/notebooks/11_Module.ipynb)
 - Image pyramids and blending
 - Panorama stitching
 - Template matching
@@ -314,16 +314,22 @@ computer-graphics/
 
 ### Option 1: Use Google Colab (Recommended - No Installation!)
 
-1. **Fork or upload this repository to your GitHub account**
-2. **Replace `YOUR_USERNAME`** in all notebook links:
-   - In README.md: Find `YOUR_USERNAME` → Replace with your GitHub username
-   - In all `.ipynb` files in `notebooks/` folder
-   - Use find & replace in your editor or run this command:
-     ```bash
-     # Linux/Mac
-     find . -name "*.ipynb" -o -name "*.md" | xargs sed -i 's/YOUR_USERNAME/your-github-username/g'
-     ```
-3. **Click any "Open in Colab" badge** to start learning immediately
+✅ **All links are pre-configured for `adiel2012`**
+
+1. **Upload this repository to GitHub as `adiel2012/computer-graphics`**
+   ```bash
+   git init
+   git add .
+   git commit -m "Initial commit: Computer Graphics curriculum"
+   git branch -M main
+   git remote add origin https://github.com/adiel2012/computer-graphics.git
+   git push -u origin main
+   ```
+
+2. **Make sure the repository is PUBLIC** (Colab needs public access)
+
+3. **Click any "Open in Colab" badge** - they'll work immediately!
+
 4. **Start with Module 0 (Prerequisites)** to assess your readiness
 
 ### Option 2: Local Installation
@@ -347,11 +353,13 @@ pip install opencv-python opencv-contrib-python numpy matplotlib jupyter
 
 ## 📝 Important Notes
 
-### Before Google Colab Links Work:
-⚠️ **The "Open in Colab" badges won't work until you:**
-1. Upload this repository to your GitHub account
-2. Replace `YOUR_USERNAME` in all files with your actual GitHub username
-3. Make sure your repository is **public** (Colab can't access private repos by default)
+### Google Colab Links Ready!
+✅ **All Colab badges are configured for `adiel2012/computer-graphics`**
+
+To activate them:
+1. Upload this repository to GitHub at `https://github.com/adiel2012/computer-graphics`
+2. Make sure your repository is **PUBLIC** (Colab can't access private repos)
+3. Click any badge and start learning immediately!
 
 ### Testing Notebooks Locally First:
 ```bash
@@ -374,7 +382,7 @@ code 00_Prerequisites.ipynb
 ### Next Steps:
 1. Test notebooks locally with Jupyter
 2. Upload to GitHub
-3. Replace `YOUR_USERNAME` everywhere
+3. Replace `adiel2012` everywhere
 4. Share with students or start learning!
 
 ---
