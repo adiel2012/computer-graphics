@@ -186,4 +186,5 @@ experiments/
 !images/.gitkeep
 !projects/.gitkeep
 !notebooks/.gitkeep
-!.claude/*
+#!.claude/*
+.claude/*
