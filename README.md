@@ -45,6 +45,17 @@ cv2.destroyAllWindows()
 
 > **📓 Each module has an interactive Jupyter notebook. Click the badges to open in Google Colab!**
 
+### Module 0: Prerequisites (Before Week 1)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/computer-graphics/blob/main/notebooks/00_Prerequisites.ipynb)
+- Python fundamentals (functions, classes, comprehensions)
+- NumPy essentials (arrays, slicing, operations)
+- Mathematics review (linear algebra, trigonometry, calculus basics)
+- Practice exercises
+
+**Key Concepts**: Python programming, NumPy arrays, vectors, matrices, transformations
+
+---
+
 ### Module 1: Foundations (Weeks 1-2)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/computer-graphics/blob/main/notebooks/01_Foundations.ipynb)
 - Image representation and file I/O
@@ -285,24 +296,51 @@ normalized = img.astype(np.float32) / 255.0
 
 ```
 computer-graphics/
-├── README.md                          # This file
-├── notebooks/                         # Jupyter notebooks for each module
-│   ├── 01_Foundations.ipynb          # ✅ Fully developed
-│   ├── 02_Drawing_and_Color.ipynb    # ✅ Fully developed
-│   ├── 03_Filtering_Enhancement.ipynb # 📝 Template (expand with content)
-│   └── ...                            # 📝 Additional module templates
-├── images/                            # Sample images (create this)
-└── projects/                          # Capstone projects (create this)
+├── README.md                          # This file - complete syllabus
+├── .gitignore                         # Git ignore configuration
+│
+└── notebooks/                         # Jupyter notebooks for each module
+    ├── 00_Prerequisites.ipynb         # ✅ Python, NumPy, Math review
+    ├── 01_Foundations.ipynb           # ✅ Fully developed
+    ├── 02_Drawing_and_Color.ipynb     # ✅ Fully developed
+    ├── 03_Filtering_Enhancement.ipynb # 📝 Template (expand with content)
+    └── 04-11_Module.ipynb             # 📝 Additional module templates
 ```
 
 ## 🚀 Getting Started
 
-1. **Clone or download this repository**
-2. **Replace `YOUR_USERNAME`** in all notebook links with your GitHub username
-3. **Open notebooks in Google Colab** by clicking the badges
-4. **Follow the modules sequentially** for best results
-5. **Complete exercises** in each notebook
-6. **Build capstone projects** to reinforce learning
+### Option 1: Use Google Colab (Recommended - No Installation!)
+
+1. **Fork or upload this repository to your GitHub account**
+2. **Replace `YOUR_USERNAME`** in all notebook links:
+   - In README.md: Find `YOUR_USERNAME` → Replace with your GitHub username
+   - In all `.ipynb` files in `notebooks/` folder
+   - Use find & replace in your editor or run this command:
+     ```bash
+     # Linux/Mac
+     find . -name "*.ipynb" -o -name "*.md" | xargs sed -i 's/YOUR_USERNAME/your-github-username/g'
+     ```
+3. **Click any "Open in Colab" badge** to start learning immediately
+4. **Start with Module 0 (Prerequisites)** to assess your readiness
+
+### Option 2: Local Installation
+
+```bash
+# Create virtual environment
+python -m venv opencv_env
+opencv_env\Scripts\activate  # Windows
+# source opencv_env/bin/activate  # Linux/Mac
+
+# Install packages
+pip install opencv-python opencv-contrib-python numpy matplotlib jupyter
+```
+
+### Learning Path
+
+1. 📚 **Module 0**: [Prerequisites](notebooks/00_Prerequisites.ipynb) - Python, NumPy, Math review
+2. 🎨 **Module 1-2**: Foundations & Drawing (fully developed)
+3. 🔧 **Module 3-11**: Additional topics (templates to expand)
+4. 🚀 **Capstone Projects**: Build real applications
 
 ## 📝 Note
 
